@@ -1,0 +1,57 @@
+.main {
+  padding-left: 700px;
+  padding-right: 700px;
+  width: 40vw;
+  margin: 5rem auto;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+hr {
+  height: 2px;
+  background-color: #ffdc90;
+  margin: 20px 0;
+}
+hr {
+  margin-bottom: 0%;
+}
+.Titolo {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  color: #287467;
+  text-align: center;
+  background-color: hsl(55, 100%, 98%);
+  padding: 2px;
+}
+.h1 {
+  font-size: 30px;
+  color: #412a0d;
+  text-align: center;
+}
+#sup {
+  margin-bottom: 0%;
+}
+#inf {
+  margin-top: 0%;
+}
+#wowsup {
+  margin-bottom: 0%;
+  text-align: left;
+}
+#wowinf {
+  margin-top: 0%;
+}
+#Image {
+  border-radius: 2%;
+  box-shadow: 10px 10px 5px #d3d3d3;
+}
+#sally {
+  text-align: center;
+  color: #d3d3d3;
+}
+.featured {
+  line-height: 0%;
+  border-left: #ffdc90 3px solid;
+  padding-left: 10px;
+}

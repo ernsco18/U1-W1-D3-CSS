@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- metodo 2 -->
+    <!-- stile css  -->
+    <style>
+      h1 {
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h2 {
+        color: green;
+        font-family: "Courier New", Courier, monospace;
+      }
+      div p {
+        color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      /* Per far riferimento ad una classe devo usare il putno .classe */
+      .leading {
+        font-size: 20px;
+        font-weight: bold;
+        color: palegreen;
+      }
+      span.leading {
+        background-color: black;
+        color: white;
+      }
+      /* Per l'id si utilizza l' # - ma si utilizza solo nei casi di macro-sezioni che non si ripetono */
+      /* Per le classi invece noi selezioniamo un'intera sezione */
+    </style>
+  </head>
+  <!-- metodi per applicare css -->
+  <!-- 1) CSS IN LINEA (attributo style) -->
+  <!-- 2)CSS INCORPORATO (DENTRO HTML) -->
+  <!-- 3)CSS ESTERNO (FILE CSS DEDICATO) -->
+  <body>
+    <h1>Titolo della pagina</h1>
+    <h2>Questo è un paragrafo di esempio nella pagina HTML.</h2>
+    <!-- metodo 1 -->
+    <p stule="font-family: Times Roman">Questo è un altro paragrafo per mostrare il contenuto della pagina.</p>
+    <div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis neque soluta distinctio ducimus illo dolorum consectetur magnam nam itaque! Rem ipsum
+        tempora veniam modi magnam sequi inventore dicta optio architecto?
+      </p>
+    </div>
+    <p class="leading">Questo paragrafo utilizza una classe CSS per applicare stili specifici.</p>
+    <p>Un altro paragrafo <span class="leading"> condivide gli stessi</span> stili definiti nella classe "leading".</p>
+  </body>
+</html>
